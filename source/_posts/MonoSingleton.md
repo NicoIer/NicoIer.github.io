@@ -4,6 +4,10 @@ date: 2024-06-17 18:48:35
 tags: [Unity, C#]
 ---
 
+Unity下基于MonoBehavior和泛型的单例模式
+
+自动清理静态变量，推荐编辑器下开启选项`播放时不重新加载程序集`
+
 ```csharp   MonoSingleton.cs
 using System;
 using UnityEngine;
